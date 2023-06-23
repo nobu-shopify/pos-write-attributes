@@ -1,0 +1,8 @@
+type = "pos_ui_extension"
+name = "write-extra-info"
+description = "write-extra-info"
+
+extension_points = [
+  'pos.home.tile.render',
+  'pos.home.modal.render'
+]
