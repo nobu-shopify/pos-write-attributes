@@ -23,14 +23,6 @@ const SmartGridModal = () => {
   );
 }
 
-//const HelloScreen = () => {
-//  return (
-//    <Screen name="HelloWorld" title="Hello World!">
-//      <Text>Welcome to the POS extension!!!</Text>
-//    </Screen>
-//  );
-//}
-
 const ExtraInputScreen = () => {
   const [key, setKey] = React.useState('');
   const [value, setValue] = React.useState('');
